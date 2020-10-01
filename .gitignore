@@ -1,0 +1,3 @@
+node_module
+./client/node_modules
+.env
