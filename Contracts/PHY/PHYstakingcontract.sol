@@ -9,7 +9,7 @@ import "@openzeppelin/contracts-ethereum-package/contracts/utils/Pausable.sol";
 import "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol";
 
-contract SwapStakingContract is Initializable, ContextUpgradeSafe, AccessControlUpgradeSafe, PausableUpgradeSafe, ReentrancyGuardUpgradeSafe {
+contract PhasestakingContract is Initializable, ContextUpgradeSafe, AccessControlUpgradeSafe, PausableUpgradeSafe, ReentrancyGuardUpgradeSafe {
 
     using SafeMath for uint256;
     using Math for uint256;
@@ -70,10 +70,10 @@ contract SwapStakingContract is Initializable, ContextUpgradeSafe, AccessControl
     public
     onlyContract(_token)
     {
-        __SwapStakingContract_init(_token, _rewardsAddress, _maxStakingAmount, _unstakingPeriod);
+        __PhaseStakingContract_init(_token, _rewardsAddress, _maxStakingAmount, _unstakingPeriod);
     }
 
-    function __SwapStakingContract_init(address _token, address _rewardsAddress, uint256 _maxStakingAmount, uint256 _unstakingPeriod)
+    function __PhaseStakingContract_init(address _token, address _rewardsAddress, uint256 _maxStakingAmount, uint256 _unstakingPeriod)
     internal
     initializer
     {
@@ -86,7 +86,7 @@ contract SwapStakingContract is Initializable, ContextUpgradeSafe, AccessControl
         __AccessControl_init_unchained();
         __Pausable_init_unchained();
         __ReentrancyGuard_init_unchained();
-        __SwapStakingContract_init_unchained();
+        __PhaseStakingContract_init_unchained();
 
         pause();
         setRewardAddress(_rewardsAddress);
@@ -97,7 +97,7 @@ contract SwapStakingContract is Initializable, ContextUpgradeSafe, AccessControl
         unstakingPeriod = _unstakingPeriod;
     }
 
-    function __SwapStakingContract_init_unchained()
+    function __PhaseStakingContract_init_unchained()
     internal
     initializer
     {
