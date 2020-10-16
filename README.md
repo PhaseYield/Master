@@ -1,6 +1,6 @@
 * Website: [phase.finance/](https://phase.finance/)
 * Twitter: [@phaseyield](https://twitter.com/PhaseYield)
-* Email: [contact@phase.finance](mailto:contact@phase.finance)* Slack: [uni-
+* Email: [contact@phase.finance](mailto:contact@phase.finance)
 * discord: [phaseyeild](https://discord.com/invite/YEk2Eyv)
 * litepaper: [Link](https://www.docdroid.net/XXzk9U7/phase-litepaper-v1-pdf)
 
