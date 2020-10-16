@@ -2,7 +2,7 @@
 * Twitter: [@phaseyield](https://twitter.com/PhaseYield)
 * Email: [contact@phase.finance](mailto:contact@phase.finance)* Slack: [uni-
 * discord: [phaseyeild](https://discord.com/invite/YEk2Eyv)
-* Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
+* litepaper: [Link](https://www.docdroid.net/XXzk9U7/phase-litepaper-v1-pdf)
 
 ## Installation:
 
